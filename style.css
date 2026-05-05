@@ -178,7 +178,15 @@ body.loaded {
   }
 }
 
+.hero__tagline-break {
+  display: none;
+}
+
 @media (max-width: 480px) {
+  .hero__tagline-break {
+    display: block;
+  }
+
   .socials {
     gap: 1.25rem;
   }
